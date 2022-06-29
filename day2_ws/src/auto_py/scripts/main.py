@@ -28,7 +28,7 @@ def update_cmd_vel(cmd_vel):   #向きを変える処理
 
 def controller():
     rospy.init_node('turtlesim_controller')
-    pub = rospy.Publisher('cmd_vel', Twist, queue_size=10) #publisherの設定
+    pub = rospy.Publisher('#　穴抜け1 cmd_velをpublishするための設定用コード #', Twist, queue_size=10) #publisherの設定
     sub = rospy.Subscriber('pose', Pose, update_pose) #subscriberの設定
 
     rate = rospy.Rate(10) #制御周期の設定
@@ -39,7 +39,7 @@ def controller():
 
     while not rospy.is_shutdown():
         cmd_vel = update_cmd_vel(cmd_vel)
-        pub.publish(cmd_vel) #cmd_velをpublishする
+        #　穴抜け2 cmd_velをpublishするためのコード # #cmd_velをpublishする
         rate.sleep()
 
 if __name__ == '__main__':

@@ -131,7 +131,6 @@ endif()
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
   include("/home/ryuzot/ros_practice/day2_ws/build/gtest/cmake_install.cmake")
-  include("/home/ryuzot/ros_practice/day2_ws/build/timer_rotate_py/cmake_install.cmake")
   include("/home/ryuzot/ros_practice/day2_ws/build/auto_py/cmake_install.cmake")
 
 endif()
