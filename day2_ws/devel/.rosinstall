@@ -1,0 +1,2 @@
+- setup-file:
+    local-name: /home/ryuzot/ros_practice/day2_ws/devel/setup.sh

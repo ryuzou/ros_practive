@@ -1,0 +1,8 @@
+prefix=/home/ryuzot/ros_practice/day2_ws/devel
+
+Name: timer_rotate_py
+Description: Description of timer_rotate_py
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 
