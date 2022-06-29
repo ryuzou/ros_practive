@@ -1,2 +1,0 @@
-auto_py
--DCATKIN_DEVEL_PREFIX=/home/ryuzot/ros_practice/day2_ws/devel -DCMAKE_INSTALL_PREFIX=/home/ryuzot/ros_practice/day2_ws/install -G Unix Makefiles

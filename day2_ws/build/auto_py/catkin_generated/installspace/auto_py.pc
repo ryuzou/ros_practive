@@ -1,8 +1,0 @@
-prefix=/home/ryuzot/ros_practice/day2_ws/install
-
-Name: auto_py
-Description: Description of auto_py
-Version: 0.0.0
-Cflags: 
-Libs: -L${prefix}/lib 
-Requires: 
